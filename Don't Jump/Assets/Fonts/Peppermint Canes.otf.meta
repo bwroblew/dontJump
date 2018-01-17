@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 2148ebea9030f6a4a8f0b2b83aca0e19
+timeCreated: 1512495379
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Peppermint Canes
+  fontNames:
+  - Peppermint Canes
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

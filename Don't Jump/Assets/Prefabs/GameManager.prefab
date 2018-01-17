@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1035383519566862}
+  m_IsPrefabParent: 1
+--- !u!1 &1035383519566862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4787491691456590}
+  - component: {fileID: 114603888983748562}
+  - component: {fileID: 114532584435786132}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4787491691456590
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1035383519566862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 211.372, y: 116.121216, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114532584435786132
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1035383519566862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cae5b1bc8a0e96e41aba5b7df1937ba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distancePoint: 0
+  distance: 0
+  bestDistance: 0
+  playerT: {fileID: 0}
+  player: {fileID: 0}
+  PauseUI: {fileID: 0}
+  StartUI: {fileID: 0}
+  InGameUI: {fileID: 0}
+  FinishUI: {fileID: 0}
+  distanceText: {fileID: 0}
+  startBestText: {fileID: 0}
+  finishBestDistanceText: {fileID: 0}
+  finishDistanceText: {fileID: 0}
+--- !u!114 &114603888983748562
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1035383519566862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e417a63789f2d824f84bd442969eb000, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  playerT: {fileID: 0}
+  platformPrefab:
+  - {fileID: 1374753312101978, guid: 77d41dc3d7fd5b04493e1545fb3eeb39, type: 2}
+  - {fileID: 1845592294775230, guid: e58eb894f8b41984e94e92d6a9cd4aa9, type: 2}
+  - {fileID: 1328322757240294, guid: bf5b17f1648ebbf4484e0de0d96ce330, type: 2}
+  - {fileID: 1381292845898986, guid: 0f9ff092dcfe0324a9a4f221ebba6f8a, type: 2}
+  - {fileID: 1441458515889776, guid: f2b28ab1bc397534c971de05b7b582bd, type: 2}
+  - {fileID: 1613096416179028, guid: e6ddd71e99cb25343ae791d1ecee48b0, type: 2}
+  - {fileID: 1207657248119660, guid: d7b7199d364e98941b134e04e0ee406f, type: 2}
+  - {fileID: 1975142744873876, guid: c3d4aac4d7256dc4986da667c0838d34, type: 2}
+  - {fileID: 1207729192981382, guid: 1abf373821ff6b34d9bb12110a217669, type: 2}
+  mm: {fileID: 114532584435786132}
+  lastPlatform: {x: 0, y: 0}
+  newPlatform: {x: 0, y: 0}
+  maxPlatforms: 8
+  lastWidth: 0

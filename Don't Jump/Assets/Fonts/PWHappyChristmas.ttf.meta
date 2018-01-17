@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: a9f9f93eb4f7dfb4db92938bee7b230a
+timeCreated: 1512494972
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: PWJoyeuxNoel
+  fontNames:
+  - PWJoyeuxNoel
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
